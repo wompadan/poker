@@ -15,6 +15,11 @@ namespace wompa.source.rank.processor
         {
             int currentCount = 1;
             int wildCount = hand[0].SuitProp.IsWild() ? 1 : 0;
+            if (wildCount >= _requiredCount - 1)
+            {
+                return true;
+            }
+            
             for (int i = 1; i < 5; ++i)
             {
                 if (hand[i].SuitProp.IsWild())

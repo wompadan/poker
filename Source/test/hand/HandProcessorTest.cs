@@ -2,7 +2,7 @@ using System;
 using wompa.source.card;
 using wompa.source.rank.processor;
 
-namespace wompa.source.test.hand.processor
+namespace wompa.source.test.hand
 {
     public class HandProcessorTest : ITest
     {

@@ -58,9 +58,11 @@
     <Compile Include="source\rank\processor\StraightRankProcessor.cs" />
     <Compile Include="source\test\card\CardCreationTestSuite.cs" />
     <Compile Include="source\test\card\creation\CardCreationTest.cs" />
+    <Compile Include="source\test\hand\HandProcessorTest.cs" />
+    <Compile Include="source\test\hand\HandRankerTest.cs" />
+    <Compile Include="source\test\hand\HandRankerTestSuite.cs" />
     <Compile Include="source\test\hand\HandSortTest.cs" />
     <Compile Include="source\test\hand\HandSortTestSuite.cs" />
-    <Compile Include="source\test\hand\processor\HandProcessorTest.cs" />
     <Compile Include="source\test\ITest.cs" />
     <Compile Include="source\test\hand\HandProcessorTestSuite.cs" />
     <Compile Include="source\test\TestRunner.cs" />

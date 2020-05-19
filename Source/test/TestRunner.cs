@@ -13,6 +13,7 @@ namespace wompa.source.test
             passedTests += new CardCreationTestSuite().Execute(ref totalTests);
             passedTests += new HandProcessorTestSuite().Execute(ref totalTests);
             passedTests += new HandSortTestSuite().Execute(ref totalTests);
+            passedTests += new HandRankerTestSuite().Execute(ref totalTests);
 
             Console.WriteLine($"{passedTests} out of {totalTests} tests passed.");
         }

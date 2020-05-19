@@ -44,12 +44,12 @@
             </e>
           </e>
           <e p="hand" t="Include">
+            <e p="HandProcessorTest.cs" t="Include" />
             <e p="HandProcessorTestSuite.cs" t="Include" />
+            <e p="HandRankerTest.cs" t="Include" />
+            <e p="HandRankerTestSuite.cs" t="Include" />
             <e p="HandSortTest.cs" t="Include" />
             <e p="HandSortTestSuite.cs" t="Include" />
-            <e p="processor" t="Include">
-              <e p="HandProcessorTest.cs" t="Include" />
-            </e>
           </e>
           <e p="ITest.cs" t="Include" />
           <e p="TestRunner.cs" t="Include" />
