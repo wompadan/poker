@@ -1,4 +1,4 @@
-﻿namespace wompatest
+﻿namespace wompa
 {
     internal class Program
     {
