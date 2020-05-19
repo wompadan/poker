@@ -7,7 +7,7 @@ namespace wompa.source.rank
     public class HandRanker
     {
         private IRankProcessor[] _rankProcessors;
-        
+
         public HandRanker()
         {
             _rankProcessors = new IRankProcessor[]
@@ -25,7 +25,7 @@ namespace wompa.source.rank
                 new NofaKindRankProcessor(5)
             };
         }
-        
+
         // Returns 1 if handA is ranked higher, -1 if handB is ranked higher, and 0 if they are a dead tie
         public int CompareHands(CardEntity[] handA, CardEntity[] handB)
         {
@@ -35,6 +35,11 @@ namespace wompa.source.rank
             if (scoreA < scoreB) return -1;
             if (scoreB < scoreA) return 1;
             return 0;
+        }
+
+        public int CompareHands(string handA, string handB)
+        {
+            return CompareHands(CardFactory.GenerateHand(handA), CardFactory.GenerateHand(handB));
         }
 
         public int GetScore(CardEntity[] hand)
