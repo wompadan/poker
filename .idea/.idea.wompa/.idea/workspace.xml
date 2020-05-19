@@ -2,11 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="527e96ca-e4c3-4160-89dc-658447e7b2ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wompa-tests/CardCreation_Tests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/test/ITest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/test/TestRunner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/test/card/CardCreationTestSuite.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/test/card/creation/CardCreationTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.wompa/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.wompa/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.wompa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.wompa/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/CardFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CardFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/rank/HandRanker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/rank/HandRanker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/wompa.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/wompa.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/wompa.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/wompa.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/.NETFramework,Version=v4.7.1.AssemblyAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/wompa.csproj.FilesWrittenAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/wompa.csproj.FilesWrittenAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/wompa.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/wompa.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/wompa.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/wompa.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wompa-tests/bin/Debug/wompa.exe" beforeDir="false" afterPath="$PROJECT_DIR$/wompa-tests/bin/Debug/wompa.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wompa-tests/bin/Debug/wompa.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/wompa-tests/bin/Debug/wompa.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wompa-tests/bin/Debug/wompa_tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wompa-tests/bin/Debug/wompa_tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wompa-tests/bin/Debug/wompa_tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/wompa-tests/bin/Debug/wompa_tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wompa-tests/obj/Debug/.NETFramework,Version=v4.7.1.AssemblyAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wompa-tests/obj/Debug/wompa-tests.csproj.FilesWrittenAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wompa-tests/obj/Debug/wompa-tests.csproj.FilesWrittenAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wompa-tests/obj/Debug/wompa_tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wompa-tests/obj/Debug/wompa_tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wompa-tests/obj/Debug/wompa_tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/wompa-tests/obj/Debug/wompa_tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wompa-tests/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/wompa-tests/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wompa-tests/wompa-tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/wompa-tests/wompa-tests.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wompa.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/wompa.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wompa.sln" beforeDir="false" afterPath="$PROJECT_DIR$/wompa.sln" afterDir="false" />
     </list>
@@ -16,8 +34,146 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="wompa" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wompa-tests/CardCreation_Tests.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+              <folding>
+                <marker date="1589858002949" expanded="true" signature="6:42" ph="..." />
+                <marker date="1589858002949" expanded="true" signature="65:276" ph="{...}" />
+                <marker date="1589858002949" expanded="true" signature="121:274" ph="{...}" />
+                <marker date="1589858002949" expanded="true" signature="183:268" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wompa.csproj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wompa-tests/wompa-tests.csproj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+              <folding>
+                <marker date="1589860078137" expanded="true" signature="41:186" ph="{...}" />
+                <marker date="1589860078137" expanded="true" signature="70:184" ph="{...}" />
+                <marker date="1589860078137" expanded="true" signature="123:178" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/test/TestRunner.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <marker date="1589860062660" expanded="true" signature="6:43" ph="..." />
+                <marker date="1589860062660" expanded="true" signature="72:403" ph="{...}" />
+                <marker date="1589860062660" expanded="true" signature="102:401" ph="{...}" />
+                <marker date="1589860062660" expanded="true" signature="146:395" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/test/ITest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+              <folding>
+                <marker date="1589859373248" expanded="true" signature="27:111" ph="{...}" />
+                <marker date="1589859373248" expanded="true" signature="56:109" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/test/card/CardCreationTestSuite.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+              <folding>
+                <marker date="1589859910713" expanded="true" signature="6:63" ph="..." />
+                <marker date="1589859910713" expanded="true" signature="97:1066" ph="{...}" />
+                <marker date="1589859910713" expanded="true" signature="146:1064" ph="{...}" />
+                <marker date="1589859910713" expanded="true" signature="199:1058" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/CardFactory.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+              <folding>
+                <marker date="1589857814841" expanded="true" signature="48:692" ph="{...}" />
+                <marker date="1589857814841" expanded="true" signature="86:690" ph="{...}" />
+                <marker date="1589857814841" expanded="true" signature="232:328" ph="{...}" />
+                <marker date="1589857814841" expanded="true" signature="501:684" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/test/card/creation/CardCreationTest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+              <folding>
+                <marker date="1589859712103" expanded="true" signature="6:49" ph="..." />
+                <marker date="1589859712103" expanded="true" signature="92:770" ph="{...}" />
+                <marker date="1589859712103" expanded="true" signature="136:768" ph="{...}" />
+                <marker date="1589859712103" expanded="true" signature="324:466" ph="{...}" />
+                <marker date="1589859712103" expanded="true" signature="522:762" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/card/CardEntity.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <folding>
+                <marker date="1589857156634" expanded="true" signature="27:143" ph="{...}" />
+                <marker date="1589857156634" expanded="true" signature="57:141" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -28,26 +184,37 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/source/rank/HandRanker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/source/card/ISuitProp.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/wompa-tests/Tests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/source/CardFactory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/wompa-tests/CardCreation_Tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/wompa-tests/Tests.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/source/test/card/creation/CardCreationTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/source/test/card/CardCreationTestSuite.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/source/test/ITest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/source/test/TestRunner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/source/rank/processor/IRankProcessor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/source/rank/HandRanker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/source/card/ISuitProp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/source/card/CardEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/source/CardFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/wompa-tests/CardCreation_Tests.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/wompa-tests/packages.config" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wompa.sln" />
-        <option value="$PROJECT_DIR$/Program.cs" />
         <option value="$PROJECT_DIR$/Properties/AssemblyInfo.cs" />
         <option value="$PROJECT_DIR$/source/CardFactory.cs" />
         <option value="$PROJECT_DIR$/source/rank/HandRanker.cs" />
         <option value="$PROJECT_DIR$/wompa-tests/Tests.cs" />
         <option value="$PROJECT_DIR$/wompa-tests/CardCreation_Tests.cs" />
+        <option value="$PROJECT_DIR$/wompa.sln" />
+        <option value="$PROJECT_DIR$/wompa-tests/wompa-tests.csproj" />
         <option value="$PROJECT_DIR$/wompa.csproj" />
+        <option value="$PROJECT_DIR$/source/test/ITest.cs" />
+        <option value="$PROJECT_DIR$/source/test/card/creation/CardCreationTest.cs" />
+        <option value="$PROJECT_DIR$/source/test/card/CardCreationTestSuite.cs" />
+        <option value="$PROJECT_DIR$/source/test/TestRunner.cs" />
+        <option value="$PROJECT_DIR$/Program.cs" />
       </list>
     </option>
   </component>
@@ -60,10 +227,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
-    <option name="y" value="34" />
-    <option name="width" value="1655" />
-    <option name="height" value="1166" />
+    <option name="y" value="38" />
+    <option name="width" value="1919" />
+    <option name="height" value="1162" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -73,6 +239,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -84,25 +251,6 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="wompa" type="24d0babc:SolutionExplorerModelNode" />
               <item name="wompa" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="wompa" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="wompa" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="References" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="wompa" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="wompa" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="References" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assemblies" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="wompa" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="wompa" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Properties" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
@@ -122,32 +270,30 @@
               <item name="wompa" type="24d0babc:SolutionExplorerModelNode" />
               <item name="wompa" type="24d0babc:SolutionExplorerModelNode" />
               <item name="source" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="rank" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="test" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="wompa" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="wompa-tests" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="wompa" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="source" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="test" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="card" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="wompa" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="wompa-tests" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="References" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="wompa" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="wompa-tests" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="References" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Projects" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="source" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="test" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="card" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="creation" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer" />
     </panes>
   </component>
@@ -203,28 +349,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="34" width="1655" height="1166" extended-state="0" />
+    <frame x="0" y="38" width="1919" height="1162" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.300062" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Build" weight="0.33333334" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.19765583" />
+      <window_info id="Structure" order="1" sideWeight="0.50139666" side_tool="true" visible="true" weight="0.19765583" />
+      <window_info id="Favorites" order="2" sideWeight="0.50139666" side_tool="true" weight="0.26105487" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49973363" weight="0.32897195" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32990655" />
+      <window_info anchor="bottom" id="NuGet" order="7" sideWeight="0.49920085" weight="0.32990655" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unit Tests" order="9" visible="true" weight="0.32960895" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="9" sideWeight="0.49813533" visible="true" weight="0.33084112" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5018647" side_tool="true" visible="true" weight="0.33084112" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32990655" />
+      <window_info anchor="bottom" id="Build" order="12" sideWeight="0.49866807" weight="0.33271027" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="3" visible="true" weight="0.32978156" />
     </layout>
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
@@ -274,6 +421,104 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/rank/HandRanker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <marker date="1589857820140" expanded="true" signature="53:332" ph="{...}" />
+            <marker date="1589857820140" expanded="true" signature="90:330" ph="{...}" />
+            <marker date="1589857820140" expanded="true" signature="282:324" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wompa.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wompa-tests/packages.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wompa-tests/Tests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <marker date="1589857849063" expanded="true" signature="6:36" ph="..." />
+            <marker date="1589857849063" expanded="true" signature="59:210" ph="{...}" />
+            <marker date="1589857849063" expanded="true" signature="102:208" ph="{...}" />
+            <marker date="1589857849063" expanded="true" signature="151:202" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wompa-tests/CardCreation_Tests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <marker date="1589858002949" expanded="true" signature="6:42" ph="..." />
+            <marker date="1589858002949" expanded="true" signature="65:276" ph="{...}" />
+            <marker date="1589858002949" expanded="true" signature="121:274" ph="{...}" />
+            <marker date="1589858002949" expanded="true" signature="183:268" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wompa-tests/wompa-tests.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wompa.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/test/ITest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding>
+            <marker date="1589859373248" expanded="true" signature="27:111" ph="{...}" />
+            <marker date="1589859373248" expanded="true" signature="56:109" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/card/CardEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding>
+            <marker date="1589857156634" expanded="true" signature="27:143" ph="{...}" />
+            <marker date="1589857156634" expanded="true" signature="57:141" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/test/card/creation/CardCreationTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <marker date="1589859712103" expanded="true" signature="6:49" ph="..." />
+            <marker date="1589859712103" expanded="true" signature="92:770" ph="{...}" />
+            <marker date="1589859712103" expanded="true" signature="136:768" ph="{...}" />
+            <marker date="1589859712103" expanded="true" signature="324:466" ph="{...}" />
+            <marker date="1589859712103" expanded="true" signature="522:762" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/CardFactory.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -287,70 +532,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/rank/HandRanker.cs">
+    <entry file="file://$PROJECT_DIR$/source/test/card/CardCreationTestSuite.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        <state relative-caret-position="270">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding>
-            <marker date="1589857820140" expanded="true" signature="53:332" ph="{...}" />
-            <marker date="1589857820140" expanded="true" signature="90:330" ph="{...}" />
-            <marker date="1589857820140" expanded="true" signature="282:324" ph="{...}" />
+            <marker date="1589859910713" expanded="true" signature="6:63" ph="..." />
+            <marker date="1589859910713" expanded="true" signature="97:1066" ph="{...}" />
+            <marker date="1589859910713" expanded="true" signature="146:1064" ph="{...}" />
+            <marker date="1589859910713" expanded="true" signature="199:1058" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/test/TestRunner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <marker date="1589860062660" expanded="true" signature="6:43" ph="..." />
+            <marker date="1589860062660" expanded="true" signature="72:403" ph="{...}" />
+            <marker date="1589860062660" expanded="true" signature="102:401" ph="{...}" />
+            <marker date="1589860062660" expanded="true" signature="146:395" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        <state relative-caret-position="135">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding>
-            <marker date="1589857559397" expanded="true" signature="15:125" ph="{...}" />
-            <marker date="1589857559397" expanded="true" signature="44:123" ph="{...}" />
-            <marker date="1589857559397" expanded="true" signature="97:117" ph="{...}" />
+            <marker date="1589860078137" expanded="true" signature="41:186" ph="{...}" />
+            <marker date="1589860078137" expanded="true" signature="70:184" ph="{...}" />
+            <marker date="1589860078137" expanded="true" signature="123:178" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wompa.sln">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wompa-tests/wompa-tests.csproj">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wompa-tests/Tests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding>
-            <marker date="1589857849063" expanded="false" signature="6:36" ph="..." />
-            <marker date="1589857849063" expanded="true" signature="59:210" ph="{...}" />
-            <marker date="1589857849063" expanded="true" signature="102:208" ph="{...}" />
-            <marker date="1589857849063" expanded="true" signature="151:202" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wompa-tests/CardCreation_Tests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <marker date="1589858002949" expanded="true" signature="6:42" ph="..." />
-            <marker date="1589858002949" expanded="true" signature="65:276" ph="{...}" />
-            <marker date="1589858002949" expanded="true" signature="121:274" ph="{...}" />
-            <marker date="1589858002949" expanded="true" signature="183:268" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wompa.csproj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
         </state>
       </provider>
     </entry>
