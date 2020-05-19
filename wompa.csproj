@@ -51,10 +51,14 @@
     <Compile Include="source\card\StandardValueProp.cs" />
     <Compile Include="source\core\Suit.cs" />
     <Compile Include="source\rank\HandRanker.cs" />
+    <Compile Include="source\rank\processor\FlushRankProcessor.cs" />
     <Compile Include="source\rank\processor\IRankProcessor.cs" />
+    <Compile Include="source\rank\processor\RoyalFlushRankProcessor.cs" />
     <Compile Include="source\test\card\CardCreationTestSuite.cs" />
     <Compile Include="source\test\card\creation\CardCreationTest.cs" />
+    <Compile Include="source\test\hand\processor\HandProcessorTest.cs" />
     <Compile Include="source\test\ITest.cs" />
+    <Compile Include="source\test\hand\HandProcessorTestSuite.cs" />
     <Compile Include="source\test\TestRunner.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

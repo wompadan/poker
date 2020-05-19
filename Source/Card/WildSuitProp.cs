@@ -8,5 +8,15 @@ namespace wompa.source.card
         {
             return true;
         }
+
+        public bool IsWild()
+        {
+            return true;
+        }
+
+        public Suit GetMatchingSuit()
+        {
+            return Suit.Invalid;
+        }
     }
 }

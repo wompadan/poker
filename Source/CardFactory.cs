@@ -10,6 +10,14 @@ namespace wompa.source
         public static CardEntity[] GenerateHand(string desc)
         {
             CardEntity[] hand = new CardEntity[5];
+
+            string[] array = desc.Split(' ');
+            for (int i = 0; i < array.Length; ++i)
+            {
+                hand[i] = GenerateCard(array[i]);
+            }
+
+            Sort(hand);
             return hand;
         }
         
@@ -35,14 +43,14 @@ namespace wompa.source
             return card;
         }
 
-        public static CardEntity CreateJoker(CardEntity card)
+        private static CardEntity CreateJoker(CardEntity card)
         {
             card.ValueProp = new WildValueProp();
             card.SuitProp = new WildSuitProp();
             return card;
         }
 
-        public static IValueProp GenerateValue(string desc)
+        private static IValueProp GenerateValue(string desc)
         {
             switch (desc)
             {
@@ -64,7 +72,7 @@ namespace wompa.source
             return null;
         }
 
-        public static ISuitProp GenerateSuit(string desc)
+        private static ISuitProp GenerateSuit(string desc)
         {
             switch (desc)
             {
@@ -79,6 +87,19 @@ namespace wompa.source
                 default:
                     return null;
             }
+        }
+        
+        private static void Sort(CardEntity[] hand)
+        {
+            Array.Sort(hand, SortByRank);
+        }
+
+        private static int SortByRank(CardEntity a, CardEntity b)
+        {
+            if (a.SuitProp.IsWild() && b.SuitProp.IsWild()) return 0;
+            if (a.SuitProp.IsWild()) return -1;
+            if (b.SuitProp.IsWild()) return 1;
+            return a.ValueProp.GetHighestValue() - b.ValueProp.GetHighestValue();
         }
     }
 }

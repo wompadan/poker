@@ -1,3 +1,4 @@
+using System;
 using wompa.source.card;
 
 namespace wompa.source.rank

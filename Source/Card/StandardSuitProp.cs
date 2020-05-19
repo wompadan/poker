@@ -14,5 +14,15 @@ namespace wompa.source.card
         {
             return testValue == _suit;
         }
+
+        public bool IsWild()
+        {
+            return false;
+        }
+
+        public Suit GetMatchingSuit()
+        {
+            return _suit;
+        }
     }
 }

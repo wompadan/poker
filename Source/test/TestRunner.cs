@@ -1,5 +1,6 @@
 using System;
 using wompa.source.test.card;
+using wompa.source.test.hand;
 
 namespace wompa.source.test
 {
@@ -10,6 +11,7 @@ namespace wompa.source.test
             int passedTests = 0;
             int totalTests = 0;
             passedTests += new CardCreationTestSuite().Execute(ref totalTests);
+            passedTests += new HandProcessorTestSuite().Execute(ref totalTests);
 
             Console.WriteLine($"{passedTests} out of {totalTests} tests passed.");
         }
