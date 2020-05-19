@@ -31,7 +31,9 @@
           <e p="processor" t="Include">
             <e p="FlushRankProcessor.cs" t="Include" />
             <e p="IRankProcessor.cs" t="Include" />
+            <e p="NofaKindRankProcessor.cs" t="Include" />
             <e p="RoyalFlushRankProcessor.cs" t="Include" />
+            <e p="StraightRankProcessor.cs" t="Include" />
           </e>
         </e>
         <e p="test" t="Include">
@@ -43,6 +45,8 @@
           </e>
           <e p="hand" t="Include">
             <e p="HandProcessorTestSuite.cs" t="Include" />
+            <e p="HandSortTest.cs" t="Include" />
+            <e p="HandSortTestSuite.cs" t="Include" />
             <e p="processor" t="Include">
               <e p="HandProcessorTest.cs" t="Include" />
             </e>

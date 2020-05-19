@@ -57,11 +57,11 @@ namespace wompa.source
                 case "A":
                     return new AceValueProp();
                 case "K":
-                    return new StandardValueProp(13, "King of {0}");
+                    return new StandardValueProp(13, "King");
                 case "Q":
-                    return new StandardValueProp(12, "Queen of {0}");
+                    return new StandardValueProp(12, "Queen");
                 case "J":
-                    return new StandardValueProp(11, "Jack of {0}");
+                    return new StandardValueProp(11, "Jack");
                 default:
                     int value = -1;
                     value = Convert.ToInt32(desc);
@@ -99,7 +99,7 @@ namespace wompa.source
             if (a.SuitProp.IsWild() && b.SuitProp.IsWild()) return 0;
             if (a.SuitProp.IsWild()) return -1;
             if (b.SuitProp.IsWild()) return 1;
-            return a.ValueProp.GetHighestValue() - b.ValueProp.GetHighestValue();
+            return b.ValueProp.GetHighestValue() - a.ValueProp.GetHighestValue();
         }
     }
 }

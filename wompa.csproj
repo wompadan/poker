@@ -53,9 +53,13 @@
     <Compile Include="source\rank\HandRanker.cs" />
     <Compile Include="source\rank\processor\FlushRankProcessor.cs" />
     <Compile Include="source\rank\processor\IRankProcessor.cs" />
+    <Compile Include="source\rank\processor\NofaKindRankProcessor.cs" />
     <Compile Include="source\rank\processor\RoyalFlushRankProcessor.cs" />
+    <Compile Include="source\rank\processor\StraightRankProcessor.cs" />
     <Compile Include="source\test\card\CardCreationTestSuite.cs" />
     <Compile Include="source\test\card\creation\CardCreationTest.cs" />
+    <Compile Include="source\test\hand\HandSortTest.cs" />
+    <Compile Include="source\test\hand\HandSortTestSuite.cs" />
     <Compile Include="source\test\hand\processor\HandProcessorTest.cs" />
     <Compile Include="source\test\ITest.cs" />
     <Compile Include="source\test\hand\HandProcessorTestSuite.cs" />
