@@ -1,0 +1,8 @@
+/Users/wompa/src/ea/wompa/wompa-tests/obj/Debug/.NETFramework,Version=v4.7.1.AssemblyAttribute.cs
+/Users/wompa/src/ea/wompa/wompa-tests/bin/Debug/nunit.framework.dll
+/Users/wompa/src/ea/wompa/wompa-tests/bin/Debug/wompa_tests.pdb
+/Users/wompa/src/ea/wompa/wompa-tests/bin/Debug/wompa_tests.dll
+/Users/wompa/src/ea/wompa/wompa-tests/obj/Debug/wompa_tests.dll
+/Users/wompa/src/ea/wompa/wompa-tests/obj/Debug/wompa_tests.pdb
+/Users/wompa/src/ea/wompa/wompa-tests/bin/Debug/wompa.exe
+/Users/wompa/src/ea/wompa/wompa-tests/bin/Debug/wompa.pdb

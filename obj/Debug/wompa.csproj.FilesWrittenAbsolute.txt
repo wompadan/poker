@@ -1,0 +1,5 @@
+/Users/wompa/src/ea/wompa/obj/Debug/.NETFramework,Version=v4.7.1.AssemblyAttribute.cs
+/Users/wompa/src/ea/wompa/bin/Debug/wompa.pdb
+/Users/wompa/src/ea/wompa/bin/Debug/wompa.exe
+/Users/wompa/src/ea/wompa/obj/Debug/wompa.exe
+/Users/wompa/src/ea/wompa/obj/Debug/wompa.pdb

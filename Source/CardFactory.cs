@@ -2,7 +2,7 @@ using wompa.source.card;
 
 namespace wompa.source
 {
-    public class CardFactory
+    public static class CardFactory
     {
         // Generate an array of cards based on a simple space delimited string
         public static CardEntity[] GenerateHand(string desc)
