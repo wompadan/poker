@@ -41,9 +41,14 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="source\CardFactory.cs" />
+    <Compile Include="source\card\AceValueProp.cs" />
     <Compile Include="source\card\CardEntity.cs" />
     <Compile Include="source\card\IValueProp.cs" />
     <Compile Include="source\card\ISuitProp.cs" />
+    <Compile Include="source\card\WildSuitProp.cs" />
+    <Compile Include="source\card\WildValueProp.cs" />
+    <Compile Include="source\card\StandardSuitProp.cs" />
+    <Compile Include="source\card\StandardValueProp.cs" />
     <Compile Include="source\core\Suit.cs" />
     <Compile Include="source\rank\HandRanker.cs" />
     <Compile Include="source\rank\processor\IRankProcessor.cs" />

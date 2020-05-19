@@ -13,9 +13,14 @@
       </e>
       <e p="Source" t="Include">
         <e p="Card" t="Include">
+          <e p="AceValueProp.cs" t="Include" />
           <e p="CardEntity.cs" t="Include" />
           <e p="ISuitProp.cs" t="Include" />
           <e p="IValueProp.cs" t="Include" />
+          <e p="StandardSuitProp.cs" t="Include" />
+          <e p="StandardValueProp.cs" t="Include" />
+          <e p="WildSuitProp.cs" t="Include" />
+          <e p="WildValueProp.cs" t="Include" />
         </e>
         <e p="CardFactory.cs" t="Include" />
         <e p="Core" t="Include">
